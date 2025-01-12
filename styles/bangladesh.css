@@ -108,7 +108,7 @@ body {
 
 .pillars-cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -118,4 +118,5 @@ body {
     border-radius: 10px;
     width: 200px;
     text-align: center;
+
 }
