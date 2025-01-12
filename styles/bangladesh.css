@@ -201,7 +201,8 @@
 }
 
 
-/* Donation today */
+/* Donation today  section*/
+
 .donation-options {
     display: flex;
     justify-content: center;
@@ -218,6 +219,7 @@
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .donation-card:hover {
@@ -227,13 +229,13 @@
 /* Full-Width Input */
 .donation-input {
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     padding: 12px;
     margin: 20px auto;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-
+    margin: 0 auto;
 }
 
 /* DonateButton */
@@ -245,6 +247,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    margin: 0 auto;
 }
 
 .donate-btn:hover {
@@ -255,9 +258,7 @@
 /* newsletter */
 .newsletter-section {
     background-color: #C6E4D6;
-    /* Background color */
     color: black;
-    /* Text color */
     padding: 80px 10x;
 }
 
