@@ -101,15 +101,15 @@ body {
 
 /* Pillars Section */
 .pillars-section {
-    text-align: left;
-    padding: 60px 20px;
+    text-align: start;
+    padding: 40px 10px;
     background-color: #ffffff;
 }
 
 .pillars-cards {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: stretch;
+    gap: 40px;
 }
 
 .pillar-card {
@@ -123,7 +123,7 @@ body {
 
 /* Vision of Future Section */
 .vision-section {
-    padding: 60px 20px;
+    padding: 40px 10px;
     text-align: left;
     font-weight: bold;
     background-color: #ffffff;
@@ -131,8 +131,9 @@ body {
 
 .vision-cards {
     display: flex;
-    justify-content: left;
+    justify-content: stretch;
     gap: 20px;
+    align-self: start;
 }
 
 .vision-card {
