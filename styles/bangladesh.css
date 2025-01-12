@@ -160,3 +160,35 @@ body {
     background-color: #ccccff;
     /* Light blue */
 }
+
+
+/* Recent News Section */
+.recent-news {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.news-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-card {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.news-image img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.news-content {
+    padding: 30px;
+}
