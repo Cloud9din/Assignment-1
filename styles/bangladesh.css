@@ -101,7 +101,7 @@ body {
 
 /* Pillars Section */
 .pillars-section {
-    text-align: center;
+    text-align: left;
     padding: 60px 20px;
     background-color: #ffffff;
 }
@@ -119,4 +119,43 @@ body {
     width: 200px;
     text-align: center;
 
+}
+
+/* Vision of Future Section */
+.vision-section {
+    padding: 60px 20px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.vision-cards {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.vision-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* Different Background Colors */
+.vision-card:nth-child(1) {
+    background-color: #ffcccc;
+    /* Light red */
+}
+
+.vision-card:nth-child(2) {
+    background-color: #ccffcc;
+    /* Light green */
+}
+
+.vision-card:nth-child(3) {
+    background-color: #ccccff;
+    /* Light blue */
 }
